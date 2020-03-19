@@ -1,0 +1,155 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml">
+<head>
+    <meta http-equiv='Content-Type' content='text/html; charset=gb2312'>
+    <meta http-equiv='X-UA-Compatible' content
+            ='IE=EmulateIE7'/>
+    <link rel='stylesheet' href='../_style/styles_rpt.css' type='text/css'>
+    <style>v\: * {
+        BEHAVIOR: url(#default#VML)
+    }
+
+    @media print {
+        div.buttonarea {
+            displ ay: none
+        }
+    }</style>
+    <title></title></head>
+<body oncontextmenu=window.event.returnValue=false onselectstart=window.event.returnValue=false
+      ondragstart=window.event.re
+      turnValue=false onsource=window.event.returnValue=false topmargin='0' leftmargin='0'>
+<center></form></center>
+</body>
+</html>
+
+
+<html xmlns:v="urn:schemas-microsoft-com:vml">
+<head>
+    <meta http-equiv='Content-Type' content='text/html; charset=gb2312'>
+    <meta http-equiv='X-UA-Compatible' content='IE=EmulateIE7'/>
+    <link rel='stylesheet' href='../_style/styles_rpt.css' type='text/css'>
+    <style>v\: * {
+        BEHAVIOR: url(#default#VML)
+    }
+
+    @media print {
+        div.buttonarea {
+            display: none
+        }
+    }</style>
+    <title></title></head>
+<body oncontextmenu=window.event.returnValue=false onselectstart=window.event.returnValue=false
+      ondragstart=window.event.returnValue=false onsource=window.event.returnValue=false topmargin='0' leftmargin='0'>
+<center>
+    <table name=theExportData width=845 BORDER=0 align=center CELLPADDING=0 CELLSPACING=0>
+        <tr>
+            <td align=center><b><font size=4>山西大学学生成绩明细(有效)</font></b></td>
+        </tr>
+        <tr align=left valign=middle>
+            <td align=center><br></td>
+        </tr>
+    </table>
+    <table name=theExportData width=845>
+        <tr>
+            <td align=left>院(系)/部：电子信息工程系</td>
+            <td align=left>行政班级：电子信息工程1702班</td>
+            <td align=left>平均学分绩点：3.61</td>
+        </tr>
+        <tr>
+            <td align=left>学&ensp;&ensp;&ensp;&ensp;&ensp;号：201702701139</td>
+            <td align=left>姓&ensp;&ensp;&ensp;&ensp;名：姚怡帆</td>
+            <td align='left'>打印时间：2020-03-13</td>
+        </tr>
+    </table>
+    <table name=theExportData width=845 BORDER=0 align=center CELLPADDING=0 CELLSPACING=0>
+        <tr>
+            <td align=left>学年学期：2019-2020学年第一学期</td>
+        </tr>
+    </table>
+    <div style='text-align:center;width:845'>
+        <div style='width;100%;text-align:center'><img width='845'
+                                                       src='Stu_MyScore_Drawimg.aspx?x=1&h=2&w=845&xnxq=20190&xn=2019&xq=0&rpt=1&rad=2&zfx=0&param_xh=201700000977'>
+        </div>
+    </div>
+    <br>
+    <table width='649' name=theExportData id=tableReportMain border=0 ID='ID_Table' CELLPADDING=0 CELLSPACING=1
+           bgcolor='#89bfa7'>
+        <tr class=B>
+            <td width=26% align=center><br></td>
+            <td width=15% align=center>修读课程环节数</td>
+            <td width=10% align=center>学分</td>
+            <td width=12% align=center>获得学分</td>
+            <td width=12% align=center>获得绩点</td>
+            <td width=13% align=center>获得学分绩点</td>
+            <td width=16% align=center>获得平均学分绩点</td>
+        </tr>
+        <tr class=B>
+            <td width=26% align=center>总学分</td>
+            <td width=15% align=right>12</td>
+            <td width=10% align=right>25.5</td>
+            <td width=12% align=right>25.5</td>
+            <td width=12% align=right>42.5</td>
+            <td width=13% align=right>92.00</td>
+            <td width=16% align=right>3.61</td>
+        </tr>
+    </table>
+    <table name=theExportData width='845' border=0 align=center CELLPADDING=0 CELLSPACING=0 valign=bottom>
+        <tr align=center>
+            <td width=100% align=center class='noborder'>
+                <table border=0 align=center CELLPADDING=0 CELLSPACING=0>
+                    <tr>
+                        <td align=right colspan=7 class='noborder'>第&ensp;1&ensp;页&ensp;&ensp;</td>
+                        <td align=left colspan=7 class='noborder' id='page1'>共&ensp;1&ensp;页</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript">document.getElementById("page1").innerHTML = "共&ensp;1&ensp;页";</script>
+    <input type='hidden' name='hidschoolcode' value='10108'></form></center>
+</body>
+</html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+    查看成绩
+</title>
+    <link rel="stylesheet" href="../_style/styles_Rpt.css" type="text/css"/>
+    <script language=javascript>
+        function adddata(obj) {
+            if (obj.checked) {
+                if ($("xfj").innerHTML == "" && $("kcms").innerHTML == "") {
+                    $("zxf").value = Math.round(parseFloat(obj.zxf) * 10) / 10;
+                    $("xfj").innerHTML = Math.round(parseFloat(obj.xfj) * 10) / 10;
+                } else {
+                    $("zxf").value = Math.round((parseFloat($("zxf").value) + parseFloat(obj.zxf)) * 10) / 10;
+                    $("xfj").innerHTML = Math.round((parseFloat($("xfj").innerHTML) + parseFloat(obj.xfj)) * 10) / 10;
+                }
+            } else {
+                $("zxf").value = Math.round((parseFloat($("zxf").value) - parseFloat(obj.zxf)) * 10) / 10;
+                $("xfj").innerHTML = Math.round((parseFloat($("xfj").innerHTML) - parseFloat(obj.xfj)) * 10) / 10;
+            }
+
+            if ($("zxf").value != "0") {
+                $("pjxfj").innerHTML = Math.round(parseFloat($("xfj").innerHTML) / $("zxf").value * 100) / 100;
+            } else {
+                $("xfj").innerHTML = "0";
+                $("pjxfj").innerHTML = "0";
+            }
+        }
+
+        function $(theID) {
+            return parent.document.getElementById(theID);
+        }
+
+    </script>
+</head>
+<body onselectstart=window.event.returnValue=false oncontextmenu=window.event.returnValue=false
+      ondragstart=window.event.returnValue=false onsource=window.event.returnValue=false
+      leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+</body>
+</html>
+
+
+
+

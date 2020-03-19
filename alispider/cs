@@ -1,0 +1,100 @@
+"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0"
+"Accept":"image/webp,*/*"
+"Accept-Language":"zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2"
+"Accept-Encoding":"gzip, deflate"
+"Connection":"keep-alive"
+"Referer: http://myportal.sxu.edu.cn/"
+Cookie: JSESSIONID=0000idz-GOGVlf6TzsOEm8llZ-J:1b4e17ihg
+
+
+
+"captcha":"ced5",
+"what":"captcha",
+"value":"ced5",
+"sf_request_type":"ajax",
+
+
+Host: myportal-sxu-edu-cn.vpn.sxu.edu.cn:8118
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0
+Accept: text/javascript, text/html, application/xml, text/xml, */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+X-Requested-With: XMLHttpRequest
+X-Prototype-Version: 1.5.0
+Connection: keep-alive
+Referer: http://myportal-sxu-edu-cn.vpn.sxu.edu.cn:8118/login.portal
+Cookie: HMACCOUNT_-_hm.baidu.com=326CC893DFD429B5; Hm_lvt_291efffa6ff82688326860457bffebe1_-_lib.sxu.edu.cn=1582939423; Hm_lvt_08a05dadf3e5b6d1c99fc4d862897e31_-_720yun.com=1576831644; JSESSIONID=0000jWvbto9uArlsxBvdnNyuM_J:1b4e17j2v; Hm_lpvt_291efffa6ff82688326860457bffebe1_-_lib.sxu.edu.cn=1582939423; Hm_lpvt_08a05dadf3e5b6d1c99fc4d862897e31_-_720yun.com=1576831668; ssl_edition_-_mail.sxu.edu.cn=mail.qq.com; qm_authimgs_id_-_mail.sxu.edu.cn=1; qm_verifyimagesession_-_mail.sxu.edu.cn=h01064a7a7632aba3da4f02bd82ba7923cbf65c5cef2b6b0cfc60cacb127980f90ff6743ec6603b102c; TWFID=7c22597a73263dec; iPlanetDirectoryPro=AQIC5wM2LY4SfcwTEwoqs8%2BMxNRYL4sP5piq%2Fbvo4vaZGMo%3D%40AAJTSQACMDE%3D%23
+Pragma: no-cache
+Cache-Control: no-cache
+
+Host: myportal-sxu-edu-cn.vpn.sxu.edu.cn:8118
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 172
+Origin: http://myportal-sxu-edu-cn.vpn.sxu.edu.cn:8118
+Connection: keep-alive
+Referer: http://myportal-sxu-edu-cn.vpn.sxu.edu.cn:8118/login.portal
+Cookie: HMACCOUNT_-_hm.baidu.com=326CC893DFD429B5; Hm_lvt_291efffa6ff82688326860457bffebe1_-_lib.sxu.edu.cn=1582939423; Hm_lvt_08a05dadf3e5b6d1c99fc4d862897e31_-_720yun.com=1576831644; JSESSIONID=0000mka-7167E-BJIdGfSIAj6UK:1b4e17j2v; Hm_lpvt_291efffa6ff82688326860457bffebe1_-_lib.sxu.edu.cn=1582939423; Hm_lpvt_08a05dadf3e5b6d1c99fc4d862897e31_-_720yun.com=1576831668; ssl_edition_-_mail.sxu.edu.cn=mail.qq.com; qm_authimgs_id_-_mail.sxu.edu.cn=1; qm_verifyimagesession_-_mail.sxu.edu.cn=h01064a7a7632aba3da4f02bd82ba7923cbf65c5cef2b6b0cfc60cacb127980f90ff6743ec6603b102c; TWFID=7c22597a73263dec; iPlanetDirectoryPro=AQIC5wM2LY4SfcwTEwoqs8%2BMxNRYL4sP5piq%2Fbvo4vaZGMo%3D%40AAJTSQACMDE%3D%23
+Upgrade-Insecure-Requests: 1
+Pragma: no-cache
+Cache-Control: no-cache
+
+<script src=/sf-webproxy/api/vpn-config></script><script src=/sf-webproxy/resource/web_proxy.js?v=1.4.6></script><script src=/sf-webproxy/resource/postMessage.js></script><script type="text/javascript">(opener || parent).handleLoginFailure(true,'用户不存在或密码错误');</script>
+"Login.Token1":"201702701159",
+"Login.Token2":"zl46754",
+"goto":""http://myportal.sxu.edu.cn/loginSuccess.portal",
+"gotoOnFail":"http://myportal.sxu.edu.cn/loginFailure.portal",
+
+
+"Host":"myportal.sxu.edu.cn",
+"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0",
+"Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+"Accept-Language":"zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2",
+"Accept-Encoding":"gzip, deflate",
+"Content-Type":"application/x-www-form-urlencoded",
+"Content-Length":"173",
+"Origin":"http://myportal.sxu.edu.cn",
+"Connection":"keep-alive",
+"Referer":"http://myportal.sxu.edu.cn/index.portal",
+"Upgrade-Insecure-Requests":"1",
+"Pragma":"no-cache",
+"Cache-Control":"no-cache",
+
+
+
+".f":"f3756",
+".pmn":"view",
+"groupid":"all",
+"action":"bulletinsMoreView",
+"search":"true",
+".ia":"false",
+".pen":""pe1713",
+
+
+Host":"myportal.sxu.edu.cn
+User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0
+Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language":"zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding":"gzip, deflate
+Referer":"http://myportal.sxu.edu.cn/index.portal
+Connection":"keep-alive
+Upgrade-Insecure-Requests":"1
+Pragma: no-cache
+Cache-Control: no-cache
+
+
+"Host":"myportal.sxu.edu.cn",
+"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0",
+"Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+"Accept-Language":"zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2",
+"Accept-Encoding":"gzip, deflate",
+"Referer":"http://myportal.sxu.edu.cn/index.portal",
+"Connection":"keep-alive",
+"Upgrade-Insecure-Requests":"1",
+"Pragma":"no-cache",
+"Cache-Control":"no-cache",
+
+
