@@ -3,7 +3,7 @@ from flask import Flask ,make_response,abort
 from flask_restful import Api
 import json
 
-from app.models import StudyRoom
+from app.models import *
 from .Login import Login,WxLogin
 from .Grade import Grade
 from .Curriculum import Curriculum
@@ -12,6 +12,8 @@ from .ComTea import ComTea
 from .VeCode import JwCode,CurCode
 from  .StudRoom import _StudyRoom
 from .OtherCurriculum import OtherCurriculum
+from .Essay import Essay,Details
+from .Weather import Weather
 api_db= Blueprint(
                 "api",
                __name__,
@@ -61,7 +63,6 @@ api.add_resource(JwCode,'/jwcode')
 api.add_resource(CurCode,'/curcode')
 api.add_resource(OtherCurriculum,'/ocur')
 api.add_resource(_StudyRoom,'/stu')
-
-
-# api.add_resource(Todo3,
-#     '/Todo3', endpoint='todo_ep')
+api.add_resource(Essay,'/essay')
+api.add_resource(Details,'/tails')
+api.add_resource(Weather,'/wea',)

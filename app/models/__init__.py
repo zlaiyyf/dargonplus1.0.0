@@ -3,6 +3,7 @@ from app.extensions import db
 
 
 from .StudyRoom import StudyRoom
+from .Essay import *
 from .Users import Users
 
 

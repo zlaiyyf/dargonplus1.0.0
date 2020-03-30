@@ -20,12 +20,15 @@ class Base():
     def academicurl(self):
         return self().academicUrl
 
+    @classmethod
+    def getpath(self):
+        return os.getcwd()
 
 
 if __name__ == "__main__":
-    import platform
 
-    print(platform.architecture())
+
+    print()
     # import requests
     # import re
     # headers={
