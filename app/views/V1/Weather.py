@@ -51,8 +51,8 @@ class Weather(Resource):
         key = args['key']
         openid = args['openid']
         now_tul = datetime.datetime.now().isocalendar()
-        start_tul = datetime.date(2020, 1, 24).isocalendar()
+        start_tul = datetime.date(2020, 2, 24).isocalendar()
         zc = int(now_tul[1]) - int(start_tul[1])
         xqs = int(now_tul[2]) - 1
         weather = getWeather()
-        return WeatherDao(zc=zc,xqs=xqs,to=weather[0],tor=weather[1])
+        return WeatherDao(zc=zc+1,xqs=xqs,to=weather[0],tor=weather[1])

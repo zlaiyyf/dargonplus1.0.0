@@ -100,6 +100,7 @@ def check_jwyzm(cookies_dict,username,password,yzm):
         }
 
         header = {
+            # Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0
             'Host': 'bkjw.sxu.edu.cn',
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
@@ -124,6 +125,7 @@ def check_jwyzm(cookies_dict,username,password,yzm):
             return {'status': False, 'mes': dlstatus, 'use': {'usename': username, 'password': password},
                     'cookies': cookies_dict}
 if __name__ == "__main__":
+    from chenji import chenji
     # print(requests.utils.dict_from_cookiejar(rep.cookies))
 
     # {'ASP.NET_SessionId': 'dc5r2i3jhj03ffkbdc4mgkpd', 'myCookie': '', 'name': 'value'}
@@ -135,3 +137,5 @@ if __name__ == "__main__":
     password=input('请输入密码')
     jwland=check_jwyzm(cookies_dict=get_yzm['cookies'],yzm=yzm,username=usename,password=password)
     print(jwland)
+    a=chenji(cookies_dict=get_yzm['cookies'],usesname=usename)
+    a.inquire_chenji()

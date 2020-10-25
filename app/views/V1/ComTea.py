@@ -16,7 +16,7 @@ resource_fields = {
 
     'data':{
     'tea':ONoDeal,
-    'notea':fields.Integer,
+    'notea':fields.String,
     'usesname':fields.String
 }
     # 'date_updated': fields.DateTime(dt_format='rfc822'),

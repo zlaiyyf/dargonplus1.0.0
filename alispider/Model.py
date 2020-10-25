@@ -12,7 +12,7 @@ dbBase = declarative_base()
 
 
 # 初始化数据库连接:
-engine = create_engine('mysql+pymysql://root:root@localhost:3306/dragon?charset=utf8',echo=False)
+engine = create_engine('数据库链接',echo=False)
 # 创建DBSession类型:
 DBSession = sessionmaker(bind=engine)
 Session = DBSession()

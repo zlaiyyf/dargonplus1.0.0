@@ -14,9 +14,9 @@ class Config:
     # SQLALCHEMY_COMMIT_ON_TEARDOWN = True
     DEBUG = True
     TESTING = True
-    EXPLAIN_TEMPLATE_LOADING=True#mysql+pymysql://root:root@localhost:3306/
+    EXPLAIN_TEMPLATE_LOADING=True
     #SQLALCHEMY_DATABASE_URI
-    SQLALCHEMY_DATABASE_URI= 'mysql+pymysql://root:root@localhost:3306/xcx'
+    SQLALCHEMY_DATABASE_URI= '数据库链接'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
 
@@ -34,15 +34,15 @@ class DevelopmentConfig(Config):
 
     DEBUG = True
     TESTING = True
-    EXPLAIN_TEMPLATE_LOADING = True  # mysql+pymysql://root:root@localhost:3306/
+    EXPLAIN_TEMPLATE_LOADING = True
     # SQLALCHEMY_DATABASE_URI
-    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:root@localhost:3306/dragon'
+    SQLALCHEMY_DATABASE_URI = '数据库链接'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
 
 # 测试环境配置
 class TestConfig(Config):
-    SQLALCHEMY_DATABASE_URI = 'mysql://root:pzl123456@localhost/test-database'
+    SQLALCHEMY_DATABASE_URI = '数据库链接'
 
 
 # 生产环境
@@ -52,9 +52,9 @@ class ProductionConfig(Config):
     SECRET_KEY = os.environ.get('SECRET_KEY') or '123456'
 
     TESTING = True
-    EXPLAIN_TEMPLATE_LOADING = True  # mysql+pymysql://root:root@localhost:3306/
+    EXPLAIN_TEMPLATE_LOADING = True
     # SQLALCHEMY_DATABASE_URI
-    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:root@localhost:3306/xcx'
+    SQLALCHEMY_DATABASE_URI = '数据库链接'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
     # 额外的初始化操作

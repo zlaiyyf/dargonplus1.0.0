@@ -47,7 +47,7 @@ def verification():
     }
     headers={
         "Host":"myportal.sxu.edu.cn",
-        "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0",
+        "User-Agent":"Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_3 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5",
         "Accept":"text/javascript, text/html, application/xml, text/xml, */*",
         "Accept-Language":"zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2",
         "Accept-Encoding":"gzip, deflate",
@@ -176,13 +176,19 @@ def easy_detail(cookies,sort,f):
     new_first_bulletinId=old_easy[sort]
     # for tag_li in tag_li_list[::-1]:
     for tag_li in tag_li_list[::-1]:
+        if "item-readed" in tag_li.get('class'):
+            continue
+            # print("读过了")
         tag_a=tag_li.find_all('a')[1]
         title=tag_a.get_text()
         tag_span=tag_li.find('span',attrs={'style':"float:left;"})
         time_=tag_span.get_text().strip()
         href=tag_a['href']
         bulletinId=href.split('&')[-1].split('=')[1]
-        print(title)
+        #
+        # if "item-readed" in tag_li.get('class'):
+        #     print("读过了")
+        #     print(title)
         index += 1
         if index == 0:
             new_first_bulletinId = bulletinId
